@@ -8,7 +8,7 @@ a{
 }
 
 body{
-  --dark-purple : #421152;
+  --dark-purple : ;
   --purple : #582C5A;
   --vibrant-orange : #FF7000;
   --yellow-orange : #FA8F46;
@@ -17,7 +17,7 @@ body{
 }
 
 p{
-  margin-top: 20px;
+  color: var(--purple);
 }
 
 .image{
@@ -79,17 +79,40 @@ p{
 
 .text{
   padding: 100px 300px 50px 50px;
-  color: var(--dark-purple);
   font-weight: bold;
   font-size: 18px;
-  
+}
+
+.top_text{
+  margin-bottom: 30px;
 }
 
 fieldset{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 300px 50px 50px;
+  flex-direction: column;
+  padding: 10px 10px 10px 50px;
+  background-color: rgb(250,143,70,0.4);
+  border: #FF7000;
+  box-shadow: 1px 1px 5px 0.5px grey
+}
+
+.legend{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.row{
+  display: flex;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  padding-right:50px ;
 }
 
 
@@ -101,15 +124,15 @@ input{
   margin-bottom: 20px;
   margin-top: 5px;
   border-radius: 5px;
-  border: 0.5px solid black;
+  border: 0.5px solid grey;
 }
 
 label {
-  display: block;
   font-size:12px;
   letter-spacing: 1.5px;
   }
 
 
 
+  
   
