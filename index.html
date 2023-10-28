@@ -7,14 +7,20 @@
   <title>Sign In</title>
 </head>
 <body>
+  
   <div class="image">
-    <img src="img/mountain.jpg" alt="">
-      <img src="img/odin-lined.png" alt="">
-      <p>Odin</p>
+    <img src="img/mountain.jpg" alt="sunset over a mountain" class="mountain">
+    <div class="image_description">
+      Photo by <a href="https://unsplash.com/de/@borisbaldinger?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boris Baldinger</a> 
+       on <a href="https://unsplash.com/de/fotos/luftaufnahme-des-berges-eUFfY6cwjSU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     </div>
     
-    Photo by <a href="https://unsplash.com/de/@borisbaldinger?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boris Baldinger</a> on <a href="https://unsplash.com/de/fotos/luftaufnahme-des-berges-eUFfY6cwjSU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
- 
+    <div class="odin_logo">
+      <img class='odin_image'src="img/odin-lined.png" alt="odin logo">
+      <p class="odin_text">Odin</p>
+    </div>
+  </div>
+
   <div class="signup">
     <div class="text">
       <p>This is not a real online service! You know you need something like this in 
@@ -27,7 +33,7 @@
     <div class="form">
       <fieldset>
         <legend>Let's do this!</legend>
-          <div>
+          <div class="first_col">
             <label for="first_name">FIRST NAME</label>
             <input type="text" id="first_name" name="first_name" required>
 
@@ -38,7 +44,7 @@
             <input type="password" id="password" name="password" required>
           </div>
 
-          <div>
+          <div class="second_col">
             <label for="last_name">LAST NAME</label>
             <input type="text" id="last_name" name="last_name" required>
 

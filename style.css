@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white;
+}
+
+body{
+  --dark-purple : #421152;
+  --purple : #582C5A;
+  --vibrant-orange : #FF7000;
+  --yellow-orange : #FA8F46;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.image{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 461px;
+}
+
+.mountain{
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  
+}
+
+.odin_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 20px 0px;
+  top: 100px;
+  background-color: var(--purple);
+  opacity: 0.65;
+  width: 100%;
+  
+}
+.odin_image{
+  height: 100px;
+}
+
+@font-face{
+  font-family: NorseBold;
+  src: url(/fonds/Norse-Bold.otf);
+  }
+
+.odin_text{
+  font-family: NorseBold;
+  font-size: 60px;
+  color: white;
+}
+
+.image_description{
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 20px;
+  
+}
+
+
+
+
+  
