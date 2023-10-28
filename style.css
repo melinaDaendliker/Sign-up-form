@@ -54,7 +54,7 @@ p{
 
 @font-face{
   font-family: NorseBold;
-  src: url(/fonds/Norse-Bold.otf);
+  src: url(../fonds/Norse-Bold.otf);
   }
 
 .odin_text{
