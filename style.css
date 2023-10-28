@@ -58,7 +58,7 @@ p{
   }
 
 .odin_text{
-  font-family: NorseBold;
+  font-family: "NorseBold", sans-serif;
   font-size: 60px;
   color: white;
 }
