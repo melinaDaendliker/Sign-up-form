@@ -1,8 +1,4 @@
-
-
-
-
-function ansValidation () {
+function passwordValidation () {
   var passValue = document.getElementById("password");
   console.log(passValue.value)
   var confpassValue = document.getElementById("password_conf");
