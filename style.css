@@ -16,6 +16,10 @@ body{
   display: flex;
 }
 
+p{
+  margin-top: 20px;
+}
+
 .image{
   position: relative;
   top: 0;
@@ -81,9 +85,30 @@ body{
   
 }
 
-p{
-  margin-top: 20px;
+fieldset{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 300px 50px 50px;
 }
+
+
+input{
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+label {
+  display: block;
+  font-size:12px;
+  letter-spacing: 1.5px;
+  }
 
 
 
