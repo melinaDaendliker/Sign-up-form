@@ -125,7 +125,7 @@ input{
   margin-bottom: 20px;
   margin-top: 5px;
   border-radius: 5px;
-  border: 0.3px solid grey;
+  border: 0.3px solid rgb(198, 197, 197);
 }
 
 label{
@@ -157,6 +157,11 @@ label{
   
 }
 
+input:focus{
+  outline: none;
+  border: 2px solid var(--yellow-orange);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
 
 
   
